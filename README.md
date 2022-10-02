@@ -29,3 +29,5 @@
  - [x] 从上传文件至指定主机
  - [x] 登录执行主机
 
+*测试环境搭建可参考*  
+ [docker安装centos并配置ssh访问](https://jiangbo202.github.io/p/docker-centos7/)
