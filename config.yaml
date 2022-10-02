@@ -1,0 +1,13 @@
+Host:
+ - ip: 192.168.124.5
+   port: 5001
+   auth:
+     username: root
+     passwd: admin123
+     googleSecret:
+ - ip: 192.168.124.5
+   port: 5001
+   auth:
+     username: root
+     passwd: admin123
+     googleSecret:
