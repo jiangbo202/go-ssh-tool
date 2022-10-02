@@ -9,9 +9,9 @@
 1. 从release下载最新go-ssh-tool.mac(或者go-ssh-tool.linux) 后缀是所使用的环境
 2. 下载文件config.yaml(放在上面工具的相同目录)并填入自己的主机信息
 3. 运行: 
-   1. 查看工具说明: `./go-ssh-tool.mac`  
-   2. 查看主机清单: `./go-ssh-tool.mac host`  
-   3. 登录一个主机: `./go-ssh-tool.mac term -m 1`   
+   1. 查看工具说明: `./ssh-tool.mac`  
+   2. 查看主机清单: `./ssh-tool.mac host`  
+   3. 登录一个主机: `./ssh-tool.mac term -m 1`   
         > -m: 主机序号  
    4. 上传文件: `./ssh-tool.mac up -m 1 -f xxxx -d /tmp`  
         > -f: 是本地的一个文件  
@@ -21,6 +21,11 @@
         > -t: 本地目录，可不传(默认本机)
    6. 远程执行一个命令: `./ssh-tool.mac exe -m 1 -c "cat /etc/redhat-release"`  
         > -c: 是命令，若包含空格，用引号引起来  
+   
+##### 源码编译
+
+> 如果要自己修改，直接拉代码，修改，最后直接make编译
+> 在./build会有便后的文件即可
 
 *功能*
  - [x] 列出主机
